@@ -1,0 +1,61 @@
+<svg width="100%" viewBox="0 0 680 150" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>eoka vhs glitch banner</title>
+<desc>VHS glitch effect banner with the text eoka</desc>
+<defs>
+<style>
+.bg{fill:#111}
+.mt{font-family:'Courier New',monospace;font-size:100px;font-weight:700;dominant-baseline:middle;text-anchor:middle}
+@keyframes s1{0%,100%{transform:translateX(0)}20%{transform:translateX(-8px)}21%{transform:translateX(12px)}22%{transform:translateX(-4px)}23%{transform:translateX(0)}60%{transform:translateX(0)}61%{transform:translateX(6px)}62%{transform:translateX(-10px)}63%{transform:translateX(0)}}
+@keyframes s2{0%,100%{transform:translateX(0)}30%{transform:translateX(14px)}31%{transform:translateX(-6px)}32%{transform:translateX(0)}70%{transform:translateX(-12px)}71%{transform:translateX(8px)}72%{transform:translateX(0)}}
+@keyframes s3{0%,100%{transform:translateX(0)}10%{transform:translateX(-10px)}11%{transform:translateX(16px)}12%{transform:translateX(-4px)}13%{transform:translateX(0)}50%{transform:translateX(10px)}51%{transform:translateX(-14px)}52%{transform:translateX(0)}}
+@keyframes s4{0%,100%{transform:translateX(0)}40%{transform:translateX(8px)}41%{transform:translateX(-12px)}42%{transform:translateX(0)}80%{transform:translateX(-6px)}81%{transform:translateX(10px)}82%{transform:translateX(0)}}
+@keyframes s5{0%,100%{transform:translateX(0)}15%{transform:translateX(-14px)}16%{transform:translateX(6px)}17%{transform:translateX(0)}55%{transform:translateX(12px)}56%{transform:translateX(-8px)}57%{transform:translateX(0)}}
+@keyframes fl{0%,100%{opacity:1}20%{opacity:1}21%{opacity:0.85}22%{opacity:1}61%{opacity:1}62%{opacity:0.9}63%{opacity:1}}
+@keyframes cr{0%,100%{opacity:0}20%{opacity:0.5}21%{opacity:0}60%{opacity:0}61%{opacity:0.4}62%{opacity:0}}
+@keyframes cr2{0%,100%{opacity:0}10%{opacity:0.4}11%{opacity:0}50%{opacity:0}51%{opacity:0.5}52%{opacity:0}}
+@keyframes nb{0%,100%{opacity:0.03}20%{opacity:0.12}21%{opacity:0.03}60%{opacity:0.03}61%{opacity:0.15}62%{opacity:0.03}}
+.sl1{animation:s1 3s infinite}
+.sl2{animation:s2 3s infinite}
+.sl3{animation:s3 3s infinite}
+.sl4{animation:s4 3s infinite}
+.sl5{animation:s5 3s infinite}
+.fl{animation:fl 3s infinite}
+.cr{animation:cr 3s infinite}
+.cr2{animation:cr2 3s infinite}
+.nb{animation:nb 3s infinite}
+</style>
+</defs>
+ 
+<g class="nb" fill="none">
+<line x1="0" y1="25" x2="680" y2="25" stroke="#fff" stroke-width="0.4"/>
+<line x1="0" y1="42" x2="680" y2="42" stroke="#fff" stroke-width="0.3"/>
+<line x1="0" y1="58" x2="680" y2="58" stroke="#fff" stroke-width="0.5"/>
+<line x1="0" y1="74" x2="680" y2="74" stroke="#fff" stroke-width="0.3"/>
+<line x1="0" y1="90" x2="680" y2="90" stroke="#fff" stroke-width="0.4"/>
+<line x1="0" y1="106" x2="680" y2="106" stroke="#fff" stroke-width="0.3"/>
+<line x1="0" y1="122" x2="680" y2="122" stroke="#fff" stroke-width="0.5"/>
+</g>
+<g class="cr"><text class="mt" x="344" y="78" fill="#ff003c" opacity="0.6">eoka</text></g>
+<g class="cr2"><text class="mt" x="336" y="78" fill="#00eaff" opacity="0.6">eoka</text></g>
+<clipPath id="c1"><rect x="0" y="22" width="680" height="18"/></clipPath>
+<clipPath id="c2"><rect x="0" y="48" width="680" height="14"/></clipPath>
+<clipPath id="c3"><rect x="0" y="68" width="680" height="20"/></clipPath>
+<clipPath id="c4"><rect x="0" y="96" width="680" height="16"/></clipPath>
+<clipPath id="c5"><rect x="0" y="118" width="680" height="14"/></clipPath>
+<g clip-path="url(#c1)" class="sl1"><text class="mt" x="340" y="78" fill="#ffffff">eoka</text></g>
+<g clip-path="url(#c2)" class="sl2"><text class="mt" x="340" y="78" fill="#ffffff">eoka</text></g>
+<g clip-path="url(#c3)" class="sl3"><text class="mt" x="340" y="78" fill="#ffffff">eoka</text></g>
+<g clip-path="url(#c4)" class="sl4"><text class="mt" x="340" y="78" fill="#ffffff">eoka</text></g>
+<g clip-path="url(#c5)" class="sl5"><text class="mt" x="340" y="78" fill="#ffffff">eoka</text></g>
+<g class="fl"><text class="mt" x="340" y="78" fill="#ffffff">eoka</text></g>
+<g class="cr">
+  <rect x="80" y="48" width="60" height="8" fill="#ff003c" opacity="0.15"/>
+  <rect x="420" y="96" width="80" height="6" fill="#00eaff" opacity="0.12"/>
+  <rect x="200" y="118" width="40" height="10" fill="#aaff00" opacity="0.1"/>
+</g>
+<g class="cr2">
+  <rect x="300" y="25" width="90" height="7" fill="#ff9900" opacity="0.12"/>
+  <rect x="100" y="100" width="50" height="8" fill="#cc00ff" opacity="0.1"/>
+  <rect x="500" y="55" width="70" height="9" fill="#00eaff" opacity="0.12"/>
+</g>
+</svg>
