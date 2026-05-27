@@ -4,28 +4,23 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Courier+New&size=18&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&lines=Reverse+Engineer;Malware+Analyst;C%2B%2B+Developer)](https://git.io/typing-svg)
 
----
+### >_ stack
 
-### stack
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=cpp,c,windows,visualstudio,github,devto&theme=dark" />
+</a>
 
-![C++](https://img.shields.io/badge/C++-111111?style=flat-square&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-111111?style=flat-square&logo=c&logoColor=white)
-![ASM](https://img.shields.io/badge/x86--64_ASM-111111?style=flat-square&logoColor=white)
-![IDA Pro](https://img.shields.io/badge/IDA_Pro-111111?style=flat-square&logoColor=white)
-![Ghidra](https://img.shields.io/badge/Ghidra-111111?style=flat-square&logoColor=white)
-![x64dbg](https://img.shields.io/badge/x64dbg-111111?style=flat-square&logoColor=white)
-![WinDbg](https://img.shields.io/badge/WinDbg-111111?style=flat-square&logoColor=white)
-![ANY.RUN](https://img.shields.io/badge/ANY.RUN-111111?style=flat-square&logoColor=white)
-![VirusTotal](https://img.shields.io/badge/VirusTotal-111111?style=flat-square&logo=virustotal&logoColor=white)
-![ImGui](https://img.shields.io/badge/ImGui-111111?style=flat-square&logoColor=white)
-![MinHook](https://img.shields.io/badge/MinHook-111111?style=flat-square&logoColor=white)
 
----
+### >_ stats
 
-[![Site](https://img.shields.io/badge/eokaaa.github.io-111111?style=flat-square&logo=github&logoColor=white)](https://eokaaa.github.io/eoka.github.io/)
-[![Telegram](https://img.shields.io/badge/@usevle-111111?style=flat-square&logo=telegram&logoColor=white)](https://t.me/usevle)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-111111?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eoka-d-3aa255408)
+![Metrics](https://metrics.lecoq.io/eokaaa?template=classic&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&config.timezone=Asia%2FYekaterinburg)
 
+<br>
+
+[![Website](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://eokaaa.github.io/eoka.github.io/)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/usevle)
+
+<br>
 <sub>self-taught · open to work</sub>
 
 </div>
