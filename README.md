@@ -2,7 +2,7 @@
 
 ![eoka](banner.svg)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Courier+New&size=18&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&lines=Reverse+Engineer;Malware+Analyst;C%2B%2B+Developer)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Courier+New&size=18&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=500&lines=C%2B%2B+Developer)](https://git.io/typing-svg)
 
 ### >_ stack
 
