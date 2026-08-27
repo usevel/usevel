@@ -1,6 +1,6 @@
 <svg width="100%" viewBox="0 0 680 150" role="img" xmlns="http://www.w3.org/2000/svg">
-<title>eoka vhs glitch banner</title>
-<desc>VHS glitch effect banner with the text eoka</desc>
+<title>usevel vhs glitch banner</title>
+<desc>VHS glitch effect banner with the text usevel</desc>
 <defs>
 <style>
 .bg{fill:#111}
@@ -35,19 +35,19 @@
 <line x1="0" y1="106" x2="680" y2="106" stroke="#fff" stroke-width="0.3"/>
 <line x1="0" y1="122" x2="680" y2="122" stroke="#fff" stroke-width="0.5"/>
 </g>
-<g class="cr"><text class="mt" x="344" y="78" fill="#ff003c" opacity="0.6">eoka</text></g>
-<g class="cr2"><text class="mt" x="336" y="78" fill="#00eaff" opacity="0.6">eoka</text></g>
+<g class="cr"><text class="mt" x="344" y="78" fill="#ff003c" opacity="0.6">usevel</text></g>
+<g class="cr2"><text class="mt" x="336" y="78" fill="#00eaff" opacity="0.6">usevel</text></g>
 <clipPath id="c1"><rect x="0" y="22" width="680" height="18"/></clipPath>
 <clipPath id="c2"><rect x="0" y="48" width="680" height="14"/></clipPath>
 <clipPath id="c3"><rect x="0" y="68" width="680" height="20"/></clipPath>
 <clipPath id="c4"><rect x="0" y="96" width="680" height="16"/></clipPath>
 <clipPath id="c5"><rect x="0" y="118" width="680" height="14"/></clipPath>
-<g clip-path="url(#c1)" class="sl1"><text class="mt" x="340" y="78" fill="#ffffff">eoka</text></g>
-<g clip-path="url(#c2)" class="sl2"><text class="mt" x="340" y="78" fill="#ffffff">eoka</text></g>
-<g clip-path="url(#c3)" class="sl3"><text class="mt" x="340" y="78" fill="#ffffff">eoka</text></g>
-<g clip-path="url(#c4)" class="sl4"><text class="mt" x="340" y="78" fill="#ffffff">eoka</text></g>
-<g clip-path="url(#c5)" class="sl5"><text class="mt" x="340" y="78" fill="#ffffff">eoka</text></g>
-<g class="fl"><text class="mt" x="340" y="78" fill="#ffffff">eoka</text></g>
+<g clip-path="url(#c1)" class="sl1"><text class="mt" x="340" y="78" fill="#ffffff">usevel</text></g>
+<g clip-path="url(#c2)" class="sl2"><text class="mt" x="340" y="78" fill="#ffffff">usevel</text></g>
+<g clip-path="url(#c3)" class="sl3"><text class="mt" x="340" y="78" fill="#ffffff">usevel</text></g>
+<g clip-path="url(#c4)" class="sl4"><text class="mt" x="340" y="78" fill="#ffffff">usevel</text></g>
+<g clip-path="url(#c5)" class="sl5"><text class="mt" x="340" y="78" fill="#ffffff">usevel</text></g>
+<g class="fl"><text class="mt" x="340" y="78" fill="#ffffff">usevel</text></g>
 <g class="cr">
   <rect x="80" y="48" width="60" height="8" fill="#ff003c" opacity="0.15"/>
   <rect x="420" y="96" width="80" height="6" fill="#00eaff" opacity="0.12"/>
