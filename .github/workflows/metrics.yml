@@ -14,41 +14,37 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Your GitHub token
-          # The following scopes are required:
-          #  - public_access (default scope)
-          # The following additional scopes may be required:
-          #  - read:org      (for organization related metrics)
-          #  - read:user     (for user related data)
-          #  - read:packages (for some packages related data)
-          #  - repo          (optional, if you want to include private repositories)
           token: ${{ secrets.METRICS_TOKEN }}
+          user: usevel
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Yekaterinburg
+          plugin_habits: yes
+          plugin_habits_charts_type: classic
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_from: 200
+          plugin_habits_languages_limit: 8
+          plugin_habits_languages_threshold: 0%
 
-          # Options
-          user: usevel
-          template: classic
-          base: header, activity, community, repositories, metadata
-          config_timezone: Asia/Yekaterinburg
-          plugin_habits: yes
-          plugin_habits_charts_type: classic
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_from: 200
-          plugin_habits_languages_limit: 8
-          plugin_habits_languages_threshold: 0%
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: usevel
-          template: classic
-          base: header, activity, community, repositories, metadata
-          config_timezone: Asia/Yekaterinburg
-          plugin_habits: yes
-          plugin_habits_charts_type: classic
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_from: 200
-          plugin_habits_languages_limit: 8
-          plugin_habits_languages_threshold: 0%
-          config_output: png
-          filename: github-metrics.png
+      - uses: actions/checkout@v4
+
+      - name: Build stats.json
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          U=usevel
+          commits=$(gh api "search/commits?q=author:$U" --jq .total_count)
+          prs=$(gh api "search/issues?q=author:$U+type:pr" --jq .total_count)
+          issues=$(gh api "search/issues?q=author:$U+type:issue+state:open" --jq .total_count)
+          releases=0
+          for r in $(gh api "users/$U/repos?per_page=100" --jq '.[].name'); do
+            n=$(gh api "repos/$U/$r/releases" --jq length)
+            releases=$((releases + n))
+          done
+          echo "{\"commits\":$commits,\"prs\":$prs,\"issues\":$issues,\"releases\":$releases}" > stats.json
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add stats.json
+          git commit -m "update stats.json" || true
+          git push
